@@ -1,284 +1,50 @@
-
-@font-face {
-    font-family: "Montserrat_Bold";
-    src: url(Fonts/Montserrat-Bold.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Montserrat_Medium";
-    src: url(Fonts/Montserrat-Medium.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Montserrat_Regular";
-    src: url(Fonts/Montserrat-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
-
-.Montserrat_Bold{
-    font-family: "Montserrat_Bold";
-}
-
-.Montserrat_Medium{
-    font-family: "Montserrat_Medium";
-}
-
-.Montserrat_Regular{
-    font-family: "Montserrat_Regular"
-}
-
 * {
     padding: 1000;
     margin: 1000;
-    font-family: "Montserrat_Regular";
 }
 
-.btn{
+
+.footer_container{
+    width: 1440px;
+    height: 124px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer_btn{
+    width: 35px;
+    height: 35px;
+    background-color: #144B98;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+      -o-transform: skew(-10deg);
+}
+
+.footer_main{}
+.footer_phone{
+    margin-left: 85px;
+}
+.footer_mail{
+    margin-left: 130px;
+}
+.footer_politic{
+    margin-left: 115px;
     cursor: pointer;
 }
-
-.btn_gr{
-    width: 133px;
-    height: 42px;
-    background-color: #32B66D;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-transform: skew(-15deg);
-    -moz-transform: skew(-15deg);
-      -o-transform: skew(-15deg);
+.footer_btn{
+    margin-left: 65px;
+    cursor: pointer;
+}
+.footer_btn_arrow{
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+      -o-transform: skew(10deg);
 }
 
-.line{
-    height: 1px;
-    width: 22px;
-    background-color: white;
-}
-
-
-.btn_gr_text{   
-    width: 146px;
-    height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-      -o-transform: skew(15deg);}
-
-.btn.btn_yel{
-        width: 176px;
-        height: 40px;
-        background-color: #FFD21D;
-        color: 313131;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-.btn_yel_text{   
-        width: 176px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-.btn_gr_small{
-    width: 140px;
-    height: 30px;
-    background-color: #32B66D;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn_gr_small_text{
-    width: 140px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-}
-
-.btn_wh_small{
-    width: 138px;
-    height: 34px;
-    background-color: #ffffff;
-    color: #4F4F4F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border: 1px solid #eeeeee;
-    border-radius: 1px;
-}
-
-.btn_wh_small_text{
-    width: 140px;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-}
-
-
-
-
-.font_24_strong{
-    font-size: 24px;
-    font-weight: 700;
-}
-.font_24{
-    font-size: 24px;
-}
-.font_18{
-    font-size: 18px;
-}
-.font_16{
-    font-size: 16px;
-}
-.font_14{
-    font-size: 14px;
-}
-.font_12{
-    font-size: 12px;
-}
-.font_9{
-    font-size: 9px;
-}
-
-.product_block{
-    width: 240px;
-    height: 286px;
-    border: 2px solid #eeeeee;
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px #c4c4c4;
-
-    display: flex;
-    flex-direction: column;
-
-    padding: 10px;
-}
-
-.color_darkblue{
-    color: #3C567A;
-}
-
-.color_yellow{
-    color: #FFD21D;
-}
-
-.color_darkgrey{
-    color: #333333;
-}
-
-.color_grey{
-    color: #eeeeee;
-}
-
-.color_lightgrey{
-    color: #fbfbfb;
-}
-
-.color_green{
-    color: #32B66D;
-}
-
-.color_blue{
-    color: #327FB6;
-}
-
-.color_purple{
-    color: #B246AD;
-}
-
-.color_orange{
-    color: #FF971D;
-}
-
-.color_red{
-    color: #FF1D1D;
-}
-
-.color_darkgreen{
-    color: #12A051;
-}
-
-.product_block_img{
-    position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-.product_block_price{
-    font-family: "Montserrat_Bold";
-    margin-top: 10px;
-}
-
-.product_block_text{
-    margin-top: 10px;
-}
-
-.product_block_horizontal{
-    width: 860px;
-    height: 197px;
-    border: 2px solid #eeeeee;
-    border-radius: 5px;
-    padding: 10px;
-    display: flex;
-}
-
-.btn_favorite, .btn_comparison{
-    display: flex;
-    align-items: center;
-}
-
-.btn_favorite_text, .btn_comparison_text{
-    color: black;
-    margin-left: 10px;
-    margin-bottom: 3px;
-}
-
-.product_block_horizontal_img{
-    width: 197px;
-    height: 197px;
-}
-
-.img_block_horizontal{
-    position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-.product_block_horizontal_btns{
-    display: flex;
-    align-items: center;
-}
-
-.margin_left_20{
-    margin-left: 20px;
-}
-
-.margin_left_55{
-    margin-left: 55px;
-}
-
-.margin_top_20{
-    margin-top: 20px;
-}
-
-.margin_top_10{
-    margin-top: 10px;
-}

@@ -1,0 +1,49 @@
+.radio_btns{
+    display: flex;
+    align-items: center;
+}
+
+.radio_btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    border: 1px solid #144B98;
+}
+
+.radio_btn_text{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.radio_btn_disable{
+    cursor: auto;
+    border: 1px solid hsla(215, 77%, 34%, 0.26);
+}
+
+.radio_btn_on{
+    border: 1px solid #32B66D;
+}
+
+.radio_btn_on_inside{
+    cursor: pointer;
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background-color: #32B66D;
+}
+
+.radio_btn_on_inside_disable{
+    cursor: pointer;
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background-color: rgba(50, 182, 109, 0.20);
+}
+
+.radio_btn_on_disable{
+    border: 1px solid rgba(50, 182, 109, 0.20);
+}

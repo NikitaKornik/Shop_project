@@ -1,0 +1,22 @@
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox_box{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #144B98;
+}
+.checkbox_text{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.checkbox_box_disable{
+    cursor: auto;
+    border: 1px solid hsla(215, 77%, 34%, 0.26);
+}

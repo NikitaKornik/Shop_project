@@ -1,0 +1,36 @@
+.alert{
+    width: 1415px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    position: relative;
+}
+.alert_ico{
+    margin-left: 35px;
+    display: inline;
+}
+.alert_text{
+    margin-left: 18px;
+    display: inline;
+}
+.alert_close{
+    cursor: pointer;
+    position: absolute;
+    right: 38px;
+}
+.alert_info{
+    background-color: #327FB6;
+}
+.alert_success{
+    background-color: #B246AD;
+}
+.alert_warning{
+    background-color: #FF971D;
+}
+.alert_error{
+    background-color: #FF1D1D;
+}

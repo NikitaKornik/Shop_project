@@ -4,6 +4,14 @@
             <title>Shop</title>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="css/alerts.css">
+            <link rel="stylesheet" href="css/buttons.css">
+            <link rel="stylesheet" href="css/checkbox.css">
+            <link rel="stylesheet" href="css/colors.css">
+            <link rel="stylesheet" href="css/fonts.css">
+            <link rel="stylesheet" href="css/margin.css">
+            <link rel="stylesheet" href="css/product_blocks.css">
+            <link rel="stylesheet" href="css/radio_btn.css">
         </head>
         <body>
             <div class="btn btn_gr"><div class="line line_left"></div><div class="btn_gr_text">Подробнее</div><div class="line line_right"></div></div>
@@ -127,13 +135,83 @@
                     </div>
                 </div>
 
+                <div class="checkbox">
+                    <div class="checkbox_box"></div>
+                    <div class="checkbox_text font_14 color_grey_footer">Unchecked</div>
+                </div>
+                <div class="checkbox">
+                    <div class="checkbox_box"><img src="img/checkbox/checkbox.png"></div>
+                    <div class="checkbox_text font_14 color_grey_footer">Checked</div>
+                </div>
+                <div class="checkbox">
+                    <div class="checkbox_box checkbox_box_disable"></div>
+                    <div class="checkbox_text font_14 color_grey_footer">Disable Unchecked</div>
+                </div>
+                <div class="checkbox">
+                    <div class="checkbox_box checkbox_box_disable"><img src="img/checkbox/checkbox_disable.png"></div>
+                    <div class="checkbox_text font_14 color_grey_footer">Disable Checked</div>
+                </div>
+
+
+                <div class="radio_btns">
+                    <div class="radio_btn radio_btn_off"></div>
+                    <div class="radio_btn_text font_14 color_grey_footer">Radio is off</div>
+                </div>
+                <div class="radio_btns">
+                    <div class="radio_btn radio_btn_on"><div class="radio_btn_on_inside"></div></div>
+                    <div class="radio_btn_text font_14 color_grey_footer">Radio is on</div>
+                </div>
+                <div class="radio_btns">
+                    <div class="radio_btn radio_btn_off_disable radio_btn_disable"></div>
+                    <div class="radio_btn_text font_14 color_grey_footer">Disable Radio is off</div>
+                </div>
+                <div class="radio_btns">
+                    <div class="radio_btn radio_btn_on_disable radio_btn_disable"><div class="radio_btn_on_inside_disable"></div></div>
+                    <div class="radio_btn_text font_14 color_grey_footer">Disable Radio is on</div>
+                </div>
+
+
+                <div class="alert alert_info">
+                    <div class="alert_ico"><img src="img/alert_ico/ico_info.png"></div>
+                    <div class="alert_text font_14">INFO ALERT: You've got some friends nearby, stop looking at your phone and find them...</div>
+                    <div class="alert_close"><img src="img/alert_ico/ico_close.png"></div>
+                </div>
+                <div class="alert alert_success">
+                    <div class="alert_ico"><img src="img/alert_ico/ico_success.png"></div>
+                    <div class="alert_text font_14">SUCCESS ALERT: Yuhuuu! You've got your $11.99 album from The Weeknd</div>
+                    <div class="alert_close"><img src="img/alert_ico/ico_close.png"></div>
+                </div>
+                <div class="alert alert_warning">
+                    <div class="alert_ico"><img src="img/alert_ico/ico_warning.png"></div>
+                    <div class="alert_text font_14">WARNING ALERT: Hey, it looks like you still have the "copyright © 2015" in your footer. Please update it!</div>
+                    <div class="alert_close"><img src="img/alert_ico/ico_close.png"></div>
+                </div>
+                <div class="alert alert_error">
+                    <div class="alert_ico"><img src="img/alert_ico/ico_error.png"></div>
+                    <div class="alert_text font_14">ERROR ALERT: Damn man! You screwed up the server this time. You should find a good excuse for your Boss...</div>
+                    <div class="alert_close"><img src="img/alert_ico/ico_close.png"></div>
+                </div>
+
+
                 <div class="footer">
-                    <div class="footer_container">
-                        <div class="footer_main"><div class="logo"></div><div class="logo_text">TyreClub 2017-2019</div></div>
-                        <div class="footer_phone"><div class="phone_info"></div><div class="phone"><div class="phone"></div>
-                        <div class="footer_mail"><div class="mail_info"></div><div class="mail"></div></div>
-                        <div class="footer_politic"><div class="politic_text"></div><div class="politic_text"></div></div>
-                        <div class="footer_btn"></div>
+                    <div class="footer_container font_14">
+                        <div class="footer_main">
+                            <div class="logo Montserrat_Bold font_24">WH-CLUB</div><div class="logo_text color_grey_footer margin_top_10">Wh-Club 2014-2022</div></div>
+                        <div class="footer_phone">
+
+                            <div class="phone_info Montserrat_Bold">Телефоны</div><div class="phone color_grey_footer margin_top_10">999 883-98-99</div><div class="phone color_grey_footer">055 550-43-00</div></div>
+
+                        <div class="footer_mail">
+                            <div class="mail_info Montserrat_Bold">Почта</div><div class="mail color_grey_footer margin_top_10">Wh-Club@index.com</div></div>
+
+                        <div class="footer_politic">
+                            <div class="politic_text color_grey_footer text_decoration">Политика конфиденциальности</div><div class="politic_text color_grey_footer text_decoration margin_top_5">Информация о компании</div></div>
+
+                        <div class="footer_btn">
+                            <div class="footer_btn_arrow"><svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.48124 0.646445C4.28598 0.451183 3.96939 0.451183 3.77413 0.646445L0.592151 3.82843C0.396889 4.02369 0.396889 4.34027 0.592151 4.53553C0.787413 4.7308 1.104 4.7308 1.29926 4.53553L4.12768 1.70711L6.95611 4.53553C7.15137 4.73079 7.46796 4.73079 7.66322 4.53553C7.85848 4.34027 7.85848 4.02369 7.66322 3.82843L4.48124 0.646445ZM4.62769 16L4.62768 0.999999L3.62768 0.999999L3.62769 16L4.62769 16Z" fill="white"/>
+                            </svg>
+                            </div></div>
                     </div>
                 </div>
                 
