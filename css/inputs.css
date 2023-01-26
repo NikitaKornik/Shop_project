@@ -1,0 +1,14 @@
+.input{
+  background-color: white;
+  border: 0px;
+  border-bottom: 1px solid #4f4f4f;
+  width: 263px;
+  color: #333333;
+  font-size: 14px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+}
+.input:focus{
+  outline: 0;
+  outline-offset: 0;
+}

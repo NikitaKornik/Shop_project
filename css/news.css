@@ -1,0 +1,34 @@
+.news{
+    width: 294px;
+    height: 251px;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+.news_text{
+    margin-top: 6px;
+    margin-left: 17px;
+    color: #144b98;
+}
+
+.btn_news_text_off{
+    margin-top: 20px;
+    margin-left: 17px;
+    position: absolute;
+    transition: .3s;
+}
+
+
+.news:hover .btn_news{
+    opacity: 1;
+}
+.news:hover .btn_news_text_off{
+    color: white;
+    transform: translateX(27px);
+}
+
+.btn_news{
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+}

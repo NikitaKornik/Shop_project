@@ -3,48 +3,68 @@
     margin: 1000;
 }
 
+.stick{
+    transform: translateY(10px);
+}
 
-.footer_container{
-    width: 1440px;
-    height: 124px;
-    background-color: #333333;
+.classification{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid #333333;
+    margin: 25px;
+    padding: 15px;
 }
 
-.footer_btn{
-    width: 35px;
-    height: 35px;
-    background-color: #144B98;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-transform: skew(-10deg);
-    -moz-transform: skew(-10deg);
-      -o-transform: skew(-10deg);
+
+
+
+
+
+.clue{
+    width: 10px;
+    height: 10px;
+    position: relative;
 }
 
-.footer_main{}
-.footer_phone{
-    margin-left: 85px;
-}
-.footer_mail{
-    margin-left: 130px;
-}
-.footer_politic{
-    margin-left: 115px;
-    cursor: pointer;
-}
-.footer_btn{
-    margin-left: 65px;
-    cursor: pointer;
-}
-.footer_btn_arrow{
-    -webkit-transform: skew(10deg);
-    -moz-transform: skew(10deg);
-      -o-transform: skew(10deg);
+.clue:before{
+    margin-left: 15px;
+    content: attr(data-clue);
+    position: absolute;
+    color: #505050;
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 2px;
+    width: 150px;
+    font-size: 9px;
+
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
 }
 
+.clue:hover:before{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.clue_svg{
+    position: absolute;
+}
+
+.border_p{
+    border: 1px grey dashed;
+}
+
+.div_svg_color{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.svg_color{
+    fill: blue;
+}

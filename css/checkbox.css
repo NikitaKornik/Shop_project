@@ -1,22 +1,36 @@
 .checkbox{
-    display: flex;
-    align-items: center;
-}
-.checkbox_box{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 18px;
-    height: 18px;
-    border: 1px solid #144B98;
-}
-.checkbox_text{
-    height: 20px;
-    margin-left: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.checkbox_box_disable{
-    cursor: auto;
-    border: 1px solid hsla(215, 77%, 34%, 0.26);
+.input_checkbox_box{
+  display: none;
 }
+
+.checkbox_box{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #144b98;
+  position: relative;
+}
+.checkbox_box::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  opacity: 1;
+}
+.input_checkbox_box:checked + .checkbox_box::before{
+  content: "";
+  background-image: url('/img/checkbox/checkbox.png');
+}
+
+
+
+
+
+
+
+
+

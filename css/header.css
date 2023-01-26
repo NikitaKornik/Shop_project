@@ -1,0 +1,257 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_middle{
+    width: 1440px;
+    height: 60px;
+    background-color: #3C567A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .header_container_top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_container_midle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.haeader_main{
+    width: 150px;
+    cursor: pointer;
+}
+
+.header_search{
+    position: relative;
+    width: 591px;
+    height: 40px;
+    background-color: white;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+
+.input_search{
+    position: absolute;
+    width: 591px;
+    height: 40px;
+    background-color: #00000000;
+    border: 0;
+    padding-left: 15px;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+.input_search:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+
+.search_btn{
+    border-radius: 3px;
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    background-color: #FFD21D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+}
+.svg_header_search{
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+.header_search_text{
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+
+.header_city{
+    cursor: pointer;
+    margin-left: 30px;
+    position: relative;
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+.header_city_svg_location{
+    cursor: pointer;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+.header_city_text{
+    cursor: pointer;
+    margin-left: 30px;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+.header_city_svg_arrow{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+    .svg_Arrow{
+        margin-top: 1px;
+    }
+    .svg_Location_2{
+        margin-top: -6px;
+    }
+
+.svg_absolute{
+    position: absolute;
+}
+
+.header_btn{
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.header_btn_svg{
+    width: 22px;
+    height: 22px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_top{
+    width: 1440px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.header_container_top{
+    width: 1081px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_authorization{
+    display: flex;
+    cursor: pointer;
+}
+.LogIn{
+    margin-left: 4px;
+}
+.SignIn{
+    margin-left: 28px;
+}
+.currency_eu{
+    margin-left: 25px;
+}
+.stick, .RU{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.header_bottom{
+    width: 1440px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+}
+.header_container_bottom{
+    width: 1081px;
+}
+
+
+
+.header_bottom_cotegory{
+    padding: 0px;
+}
+ul.header_bottom_cotegory li{
+    display: inline-block;
+
+}
+li{
+    margin: 0px;
+    list-style-type: none;
+}
+.li_block{
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    transition: .25s;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+}
+.li_block_text{
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+}
+.li_block:hover{
+    background-color: #eeeeee;
+}
+
+.UA:hover, .RU:hover{
+    cursor: pointer;
+    color: #F2C94C;
+}

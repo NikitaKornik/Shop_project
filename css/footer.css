@@ -1,0 +1,43 @@
+.footer_container{
+    width: 1440px;
+    height: 124px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer_btn{
+    width: 35px;
+    height: 35px;
+    background-color: #144B98;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+
+.footer_main{}
+.footer_phone{
+    margin-left: 85px;
+}
+.footer_mail{
+    margin-left: 130px;
+}
+.footer_politic{
+    margin-left: 115px;
+    cursor: pointer;
+}
+.footer_btn{
+    margin-left: 65px;
+    cursor: pointer;
+}
+.footer_btn_arrow{
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}

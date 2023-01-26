@@ -9,22 +9,54 @@
     flex-direction: column;
 
     padding: 10px;
-}
+    overflow: hidden;
+    transition: all 0.25s ease;
 
-.product_block_img{
     position: relative;
+}
+.product_img{
     margin-left: 50%;
     transform: translateX(-50%);
 }
-
 .product_block_price{
     font-family: "Montserrat_Bold";
     margin-top: 10px;
 }
-
 .product_block_text{
     margin-top: 10px;
 }
+.btn_hide{
+    display: flex;
+    justify-content: left;
+    margin-top: 27px;
+    margin-left: 5px;
+}
+
+.product_block:hover{
+    height: 350px;
+    animation-name: product_block;
+}
+
+@keyframes product_block{
+    0% {height: 286px;}
+    100% {height: 350px;}
+}
+
+.product_block_season{
+    position: absolute;
+    right: -40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: .25s;
+}
+
+.product_block:hover .product_block_season{
+    right: 10px;
+}
+
+
+
 
 .product_block_horizontal{
     width: 860px;
@@ -42,7 +74,6 @@
 }
 
 .img_block_horizontal{
-    position: relative;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -51,3 +82,34 @@
     display: flex;
     align-items: center;
 }
+
+
+
+
+
+
+.product_block_ad{
+    cursor: pointer;
+    width: 265px;
+    height: 73px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
+}
+.product_block_ad_img{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.img_product_block_ad{
+
+}
+.product_block_ad_text{
+    margin-left: 20px;
+}
+
+
+

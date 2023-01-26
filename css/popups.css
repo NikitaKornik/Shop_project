@@ -1,0 +1,87 @@
+.popup_filter{
+    cursor: pointer;
+    width: 217px;
+    height: 60px;
+    color: black;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.popup_filter_text{
+    margin-left: 25px;
+}
+.popup_filter_svg{
+    position: absolute;
+    right: 10px;
+}
+
+
+
+.popup_background{
+    background-color: #3C567A;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 22px;
+}
+
+.popup_body{
+    width: 300px;
+    height: 282px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_text_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+}
+
+.popup_text_description{
+    width: 260px;
+}
+
+.popup_close{
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    right: 10px;
+    top: 8px;
+}
+
+.popup_input{
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px solid #4f4f4f;
+    width: 300px;
+    color: #999999;
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.popup_input:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+.popup_pass_forgot{
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    margin-top: 100px;
+    color: #999999;
+}
+.popup_pass_forgot:hover{
+    color: black;
+    text-decoration: underline;
+}
