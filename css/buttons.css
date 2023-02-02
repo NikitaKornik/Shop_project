@@ -25,7 +25,7 @@
 
 .btn_gr:hover .line{
     animation-name: btn_gr;
-    
+
 }
 
 @keyframes btn_gr{
@@ -50,7 +50,7 @@
 }
 
 
-.btn_gr_text{   
+.btn_gr_text{
     width: 146px;
     height: 42px;
     display: flex;
@@ -70,7 +70,7 @@
         align-items: center;
     }
 
-.btn_yel_text{   
+.btn_yel_text{
         width: 176px;
         height: 40px;
         display: flex;
@@ -127,6 +127,7 @@
 .btn_favorite, .btn_comparison{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .btn_favorite_text, .btn_comparison_text{
@@ -141,7 +142,7 @@
 
 .btn_comparison:hover .btn_comparison_text{
     color: #FFD21D;
-    
+
 }
 
 

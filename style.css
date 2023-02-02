@@ -68,3 +68,48 @@
 .svg_color{
     fill: blue;
 }
+
+
+.popup_filter_green{
+    background-color: green;
+}
+
+.dropdown{
+    width: 217px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px;
+    background-color: #eeeeee;
+}
+.dropdown--off{
+    height: 0px;
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown--on{
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.ul_dropdown{
+    padding: 0px 24px;
+}
+
+li.li_dropdown:not(:first-child){
+    padding: 19px 0px 0px;
+}
+.end_line{
+    background-color: #eaeaea;
+    width: 164px;
+    height: 1px;
+    margin: 17px 0px;
+}
+.popup_filter_svg_rotate_180deg{
+    transform: rotate(-180deg);
+}
+
+.header_btn_svg:hover{
+    background-color: #50505050;
+}

@@ -26,6 +26,11 @@
   background-image: url('/img/checkbox/checkbox.png');
 }
 
+.checkbox_mini{
+  transform: scale(.5);
+  border: 2px solid #144b98;
+  margin-left: -5px;
+}
 
 
 

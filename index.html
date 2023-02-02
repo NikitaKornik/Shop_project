@@ -18,6 +18,7 @@
             <link rel="stylesheet" href="css/product_blocks.css">
             <link rel="stylesheet" href="css/radio_btn.css">
             <link rel="stylesheet" href="css/store_list.css">
+            <link rel="stylesheet" href="css/tabs.css">
         </head>
         <body>
 
@@ -72,16 +73,16 @@
                 <div class="header_bottom">
                     <div class="header_container_bottom">
                         <ul class="header_bottom_cotegory font_14">
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Шины</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Дискы</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">АКБ</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Каталоги</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Подбор по авто</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Шинный калькулятор</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Шиномонтажи</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Новости</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">Тесты</div></div></li>
-                            <li><div class="li_block"><div class="li_block_text Montserrat_Medium">О нас</div></div></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Шины</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Дискы</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">АКБ</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Каталоги</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Подбор по авто</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Шинный калькулятор</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Шиномонтажи</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Новости</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">Тесты</div></button></li>
+                            <li><button class="li_block"><div class="li_block_text Montserrat_Medium">О нас</div></button></li>
                         </ul>
                     </div>
                 </div>
@@ -236,6 +237,13 @@
 
                 <div class="classification Montserrat_Bold">CHECKBOX/RADIO</div>
 
+                <label class="checkbox">
+                    <input class="input_checkbox_box" type="checkbox">
+                    <div class="checkbox_box checkbox_mini"></div>
+                    <div class="checkbox_text font_14 color_grey_footer margin_left_5">Some text</div>
+                </label>
+
+                <br>
 
                 <label class="checkbox">
                     <input class="input_checkbox_box" type="checkbox">
@@ -292,12 +300,47 @@
 
                 <div class="classification Montserrat_Bold">ВСПЛЫВАЮЩИЕ ФИЛЬТРА</div>
 
-                <div class="popup_filter">
-                    <div class="popup_filter_text font_14 Montserrat_Medium">Сезон</div>
-                    <img class="popup_filter_svg" src="svg/Arrow.svg">
+                <div class="menu">
+                    <button class="popup_filter">
+                        <div class="popup_filter_text font_14 Montserrat_Medium">Сезон</div>
+                        <img class="popup_filter_svg" src="svg/Arrow.svg">
+                    </button>
+                    <div class="dropdown dropdown--off">
+                        <ul class="ul_dropdown">
+                            <li class="li_dropdown Montserrat_Medium">
+                                <label class="checkbox">
+                                    <label class="checkbox">
+                                        <input class="input_checkbox_box" type="checkbox">
+                                        <div class="checkbox_box checkbox_mini"></div>
+                                        <div class="checkbox_text font_12 margin_left_5 Montserrat_Medium">Летние</div>
+                                    </label></li>
+                            <li class="li_dropdown Montserrat_Medium">
+                                <label class="checkbox">
+                                    <label class="checkbox">
+                                        <input class="input_checkbox_box" type="checkbox">
+                                        <div class="checkbox_box checkbox_mini"></div>
+                                        <div class="checkbox_text font_12 margin_left_5 Montserrat_Medium">Зимние</div>
+                                    </label></li>
+                            <li class="li_dropdown Montserrat_Medium">
+                                <label class="checkbox">
+                                    <label class="checkbox">
+                                        <input class="input_checkbox_box" type="checkbox">
+                                        <div class="checkbox_box checkbox_mini"></div>
+                                        <div class="checkbox_text font_12 margin_left_5 Montserrat_Medium">Всезенонные</div>
+                                    </label></li>
+                            <li class="end_line"></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="dropdown">
+                <div class="classification Montserrat_Bold">ТАБЫ</div>
+
+                <div class="tabs_container">
+                    <ul class="tabs font_18 Montserrat_Bold">
+                        <li><button class="li_tab"><div class="tab_name Montserrat_Medium">Категория</div></button></li>
+                        <li><button class="li_tab"><div class="tab_name Montserrat_Medium">Категория</div></button></li>
+                    </ul>
+                </div>
 
                 <div class="classification Montserrat_Bold">ВСПЛЫВАЮЩИЕ ОКНА</div>
 
@@ -406,10 +449,6 @@
                 <div class="classification Montserrat_Bold">ИНПУТЫ</div>
 
                 <input type="text" class="input" placeholder="Regular">
-
-                <div class="classification Montserrat_Bold">SVG</div>
-
-                <div class="div_svg_color"><img class="svg_color" src="svg/Heart.svg"></div>
 
                 <div class="classification Montserrat_Bold">ПОДВАЛ</div>
 

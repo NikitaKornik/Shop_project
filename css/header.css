@@ -46,7 +46,7 @@
 
 .input_search{
     position: absolute;
-    width: 591px;
+    width: 471px;
     height: 40px;
     background-color: #00000000;
     border: 0;
@@ -238,6 +238,9 @@ li{
     align-items: center;
     height: 46px;
     transition: .25s;
+    position: relative;
+    color: black;
+    overflow: hidden;
     -webkit-transform: skew(-15deg);
     -moz-transform: skew(-15deg);
     -o-transform: skew(-15deg);
@@ -254,4 +257,12 @@ li{
 .UA:hover, .RU:hover{
     cursor: pointer;
     color: #F2C94C;
+}
+.cotegory_chosen::before{
+    content: "";
+    border-bottom: 4px #3C567A solid;
+    height: 87px;
+    position: absolute;
+    height: 44px;
+    width: 100%;
 }

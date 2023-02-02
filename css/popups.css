@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    padding: 0px;
 }
 .popup_filter_text{
     margin-left: 25px;
@@ -14,6 +15,7 @@
 .popup_filter_svg{
     position: absolute;
     right: 10px;
+    transition: all .25s;
 }
 
 
